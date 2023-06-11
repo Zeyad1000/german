@@ -1,0 +1,55 @@
+:root{
+    --dark-color:#ff4800;
+    --meduim-color:#ff6d00;
+    --light-color:#ffc44f;
+}
+.navbar .container {
+    color: var(--meduim-color);
+}
+.main-section{
+}
+.main-section img{
+    width: 400px;
+    height: 250px;
+}
+.main-section p{
+    color: var(--dark-color);
+}
+.about-section h3{
+    text-align: left;
+}
+.about-section p{
+    text-align: left;
+}
+.card-section img{
+    padding-bottom: 10px;
+}
+.card-section h4{
+    text-align: left;
+}
+.card-section p{
+    text-align: left;
+}
+.city{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.city:hover{
+    color: var(--light-color);
+}
+footer{
+    background-color: var(--meduim-color);
+}
+.social{
+    background-color: var(--meduim-color);
+    padding: 10px;
+}
+ul{
+    list-style: none;
+
+}
+ul li{
+    margin: 10px;
+}
